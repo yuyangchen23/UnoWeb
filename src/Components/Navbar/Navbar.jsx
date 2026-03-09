@@ -1,0 +1,20 @@
+import React from 'react'
+import './Navbar.css'
+import logo from '../../assets/UNO_Logo.png'
+
+const Navbar = () => {
+  return (
+    <nav>
+      <img src={logo} alt="" className='logo'/>
+      <ul>
+        <li>Home</li>
+        <li>rules</li>
+        <li>Purchase</li>
+        <li>About us</li>
+        <li>Contact us</li>
+      </ul>
+    </nav>
+  )
+}
+
+export default Navbar
