@@ -4,14 +4,14 @@ import logo from '../../assets/UNO_Logo.png'
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className='container'>
       <img src={logo} alt="" className='logo'/>
       <ul>
         <li>Home</li>
         <li>rules</li>
         <li>Purchase</li>
         <li>About us</li>
-        <li>Contact us</li>
+        <li><button className='btn'>Contact us</button></li>
       </ul>
     </nav>
   )
