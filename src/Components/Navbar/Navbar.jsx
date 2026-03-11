@@ -4,7 +4,7 @@ import logo from '../../assets/UNO_Logo.png'
 
 const Navbar = () => {
   return (
-    <nav className='container'>
+    <nav>
       <img src={logo} alt="" className='logo'/>
       <ul>
         <li>Home</li>
