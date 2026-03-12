@@ -19,6 +19,7 @@ const Navbar = () => {
         <li>Home</li>
         <li>rules</li>
         <li>Purchase</li>
+        <li>More</li>
         <li>About us</li>
         <li><button className='btn'>Contact us</button></li>
       </ul>

@@ -1,0 +1,16 @@
+.purchase{
+  margin: 80px auto;
+  width: 90%;
+  text-align: center;
+}
+.gallery{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+.gallery img{
+  height: 220px;
+  width: 23%;
+  border-radius: 10px;
+}
