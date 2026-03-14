@@ -7,6 +7,7 @@ import About from './Components/About/About'
 import Purchase from './Components/Purchase/Purchase'
 import More from './Components/More/More'
 import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
         <More/>
         <Title subTitle='Contact Us' title='Get in touch'/>
         <Contact/>
+        <Footer/>
       </div>
       
       
