@@ -19,7 +19,7 @@ const App = () => {
         <Title subTitle='Our Rules' title='What We Offer'/>
         <Rules/>
         <About/>
-        <Title subTitle='Gallery' title='Uno Photos'/>
+        <Title subTitle='Purchase' title='Uno Versions'/>
         <Purchase/>
         <Title subTitle='More' title='Coming soon'/>
         <More/>

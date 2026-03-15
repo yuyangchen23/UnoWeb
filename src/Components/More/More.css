@@ -55,3 +55,37 @@
 .card-info h3{
   color: #404fd5;
 }
+
+/* ------media query------ */
+@media (max-width:800px){
+  .more{
+    padding: 0 40px;
+  }
+  .next-btn, .back-btn{
+    padding: 10px;
+    width: 35px;
+  }
+  .more ul li{
+    padding: 10px;
+  }
+  .slide{
+    padding: 10px;
+  }
+  .slide img{
+    width: 50px;
+    border: 3px solid #828de9;
+  }
+}
+@media (max-width:600px){
+  .card-info{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .card-info h3{
+    font-size: 16px;
+  }
+  .slider p{
+    font-size: 12px;
+  }
+}
